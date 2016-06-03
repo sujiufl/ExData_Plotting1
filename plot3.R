@@ -1,5 +1,7 @@
 # plot3.R
+# see Week1Assignment.R to see how the data was downloaded and Read
 
+# create and plot the relevant plot3.png
 png("plot3.png", width = 480, height = 480)
 # plot the DateandTime vs Submetering_1
 plot(DateandTime, subsetdata$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering")
