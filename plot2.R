@@ -7,6 +7,7 @@ head(subsetdata)
 globalactivepower <- as.numeric(subsetdata$Global_active_power)
 DateandTime <- strptime(subsetdata$DateandTime, "%d/%m/%Y %H:%M:%S")
 
+# create and plot the relevant plot2.png
 png("plot2.png", width = 480, height = 480)
 plot(DateandTime, globalactivepower, type= "l", ylab = "Global Active Power (kilowatts)", xlab = "")
 dev.off()
