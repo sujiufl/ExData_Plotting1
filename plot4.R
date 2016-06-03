@@ -1,5 +1,7 @@
 # plot4.R
+# see Week1Assignment.R to see how the data was downloaded and Read
 
+# Create png plot
 png("plot4.png", width = 480, height = 480)
 
 # setup for a 2X2 plot
